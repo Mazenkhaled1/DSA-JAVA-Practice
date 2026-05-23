@@ -38,8 +38,30 @@ public class BubbleSort {
 
     }
     public static void main(String[] args) {
-        int [] array = {2,4,6,5,1} ;
-        bubbleSort(array);
-        System.out.println(Arrays.toString(array));
+//        int [] array = {2,4,6,5,1} ;
+//        bubbleSort(array);
+//        System.out.println(Arrays.toString(array));
+
+        int [][]arr = {
+
+                // col 0
+                {1,2,3} , // row = 0
+                // col 1
+                {4,5,6} , // row = 1
+                // col 2
+                {7,8,9}}; // row = 2
+//        System.out.println(arr[0].length);
+//        for (int i = 0 ; i < arr.length; i++){
+//            for ( int j = 0 ; j < arr[i].length ; j++){
+//                System.out.println(arr[i][j]);
+//            }
+//        }
+        for(int [] r : arr) // rows
+        {
+            for(int c :r ) // col
+            {
+                System.out.println(c + " ");
+            }
+        }
     }
 }
