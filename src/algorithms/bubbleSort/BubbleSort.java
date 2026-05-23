@@ -45,7 +45,7 @@ public class BubbleSort {
         for( int i = 1 ;  i < arr.length  ; i++ )
         {
             int temp = arr[i]; // 3
-            int j = i-1; // previous 4
+            int j = i-1; // previous 4 // pointer
             while ( j > -1 &&  temp < arr[j]) // 3 < 4
             {
                 arr[j+1] = arr[j] ;
